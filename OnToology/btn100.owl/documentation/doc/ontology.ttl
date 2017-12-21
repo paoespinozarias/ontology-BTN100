@@ -9,11 +9,12 @@
 <https://datos.ign.es/def/btn100> rdf:type owl:Ontology ;
                                    owl:versionIRI <https://datos.ign.es/def/btn100_v0.2> ;
                                    owl:imports <https://datos.ign.es/def/geo_core> ;
+                                   <http://purl.org/dc/elements/1.1/date> "2017-12-21"@es ;
                                    <http://purl.org/dc/terms/contributor> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid)"@es ,
                                                                           "Pedro Vivas White (Instituto Geográfico Nacional)"@es ;
                                    <http://purl.org/dc/terms/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)"@es ;
                                    <http://purl.org/dc/terms/description> "Ontología para la representación del conjunto de datos geográficos de los datos de la Base Topográfica Nacional a escala 1:100.000 (BTN100)."@es ;
-                                   <http://purl.org/dc/terms/license> <http://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf> ;
+                                   <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                    <http://purl.org/dc/terms/publisher> "Instituto Geográfico Nacional"@es ;
                                    <http://purl.org/dc/terms/title> "Ontología para la representación de los datos de la Base Topográfica Nacional BTN100"@es ;
                                    <http://purl.org/vocab/vann/preferredNamespacePrefix> "btn100"@es ;
