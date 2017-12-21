@@ -9,11 +9,12 @@
 <https://datos.ign.es/def/geo_core> rdf:type owl:Ontology ;
                                      owl:versionIRI <https://datos.ign.es/def/geo_core> ;
                                      owl:imports <http://www.opengis.net/ont/geosparql> ;
-                                     <http://purl.org/dc/elements/1.1/date> "2017-12-20"@es ;
+                                     <http://purl.org/dc/elements/1.1/date> "2017-12-21"@es ;
                                      <http://purl.org/dc/terms/contributor> "Oscar Corcho García (Ontology Engineering Group - Universidad Politécnica de Madrid)"@es ;
                                      <http://purl.org/dc/terms/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)"@es ,
                                                                         "Pedro Vivas White (Instituto Geográfico Nacional)"@es ;
                                      <http://purl.org/dc/terms/description> "Ontología para la representación de Objetos Geográficos"@es ;
+                                     <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                      <http://purl.org/dc/terms/publisher> "Instituto Geográfico Nacional"@es ;
                                      <http://purl.org/dc/terms/title> "Ontología para la representación de Objetos Geográficos"@es ;
                                      <http://purl.org/vocab/vann/preferredNamespacePrefix> "geo_core"@es ;
@@ -26,6 +27,10 @@
 
 ###  http://purl.org/dc/elements/1.1/source
 <http://purl.org/dc/elements/1.1/source> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/vocab/vann/preferredNamespacePrefix

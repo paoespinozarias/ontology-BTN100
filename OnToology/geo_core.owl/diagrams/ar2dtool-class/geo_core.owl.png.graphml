@@ -5,7 +5,7 @@
    <key for="edge" id="d2" yfiles.type="edgegraphics" />
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
-   <graph edgedefault="directed" id="G" parse.edges="111" parse.nodes="94" parse.order="free">
+   <graph edgedefault="directed" id="G" parse.edges="112" parse.nodes="95" parse.order="free">
       <node id="nid_skos:definition">
          <data key="d0">
             <y:ShapeNode>
@@ -1083,7 +1083,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:imports39" source="nid_https://datos.ign.es/def/geo_core" target="nid_http://www.opengis.net/ont/geosparql">
+      <node id="nid_https://creativecommons.org/licenses/by/4.0/">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://creativecommons.org/licenses/by/4.0/</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_dcterms:license39" source="nid_https://datos.ign.es/def/geo_core" target="nid_https://creativecommons.org/licenses/by/4.0/">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">dcterms:license</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_owl:imports40" source="nid_https://datos.ign.es/def/geo_core" target="nid_http://www.opengis.net/ont/geosparql">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1094,7 +1117,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:versionIRI40" source="nid_https://datos.ign.es/def/geo_core" target="nid_https://datos.ign.es/def/geo_core">
+    <edge id="eid_owl:versionIRI41" source="nid_https://datos.ign.es/def/geo_core" target="nid_https://datos.ign.es/def/geo_core">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1117,7 +1140,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_vann:preferredNamespaceUri41" source="nid_https://datos.ign.es/def/geo_core" target="nid_geo_core:">
+    <edge id="eid_vann:preferredNamespaceUri42" source="nid_https://datos.ign.es/def/geo_core" target="nid_geo_core:">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1128,7 +1151,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subPropertyOf42" source="nid_skos:narrowerTransitive" target="nid_skos:semanticRelation">
+    <edge id="eid_rdfs:subPropertyOf43" source="nid_skos:narrowerTransitive" target="nid_skos:semanticRelation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1163,7 +1186,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest43" source="nid_NULL" target="nid_rdf:nil">
+    <edge id="eid_rdf:rest44" source="nid_NULL" target="nid_rdf:nil">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1186,7 +1209,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first44" source="nid_NULL" target="nid_skos:Collection">
+    <edge id="eid_rdf:first45" source="nid_NULL" target="nid_skos:Collection">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1197,19 +1220,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-1c020bae:16079bcb1a0:-7ffa">
+      <node id="nid_-25005033:1607a18dd0e:-7ffa">
          <data key="d0">
             <y:ShapeNode>
                <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-1c020bae:16079bcb1a0:-7ffa</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-25005033:1607a18dd0e:-7ffa</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest45" source="nid_NULL" target="nid_-1c020bae:16079bcb1a0:-7ffa">
+    <edge id="eid_rdf:rest46" source="nid_NULL" target="nid_-25005033:1607a18dd0e:-7ffa">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1220,7 +1243,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdf:first46" source="nid_NULL" target="nid_skos:Concept">
+    <edge id="eid_rdf:first47" source="nid_NULL" target="nid_skos:Concept">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1231,19 +1254,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-1c020bae:16079bcb1a0:-7ffb">
+      <node id="nid_-25005033:1607a18dd0e:-7ffb">
          <data key="d0">
             <y:ShapeNode>
                <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-1c020bae:16079bcb1a0:-7ffb</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-25005033:1607a18dd0e:-7ffb</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:unionOf47" source="nid_NULL" target="nid_-1c020bae:16079bcb1a0:-7ffb">
+    <edge id="eid_owl:unionOf48" source="nid_NULL" target="nid_-25005033:1607a18dd0e:-7ffb">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1278,7 +1301,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subPropertyOf48" source="nid_geo:defaultGeometry" target="nid_geo:hasGeometry">
+    <edge id="eid_rdfs:subPropertyOf49" source="nid_geo:defaultGeometry" target="nid_geo:hasGeometry">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1301,7 +1324,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subPropertyOf49" source="nid_skos:prefLabel" target="nid_rdfs:label">
+    <edge id="eid_rdfs:subPropertyOf50" source="nid_skos:prefLabel" target="nid_rdfs:label">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1336,7 +1359,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_dcterms:hasVersion50" source="nid_dc:relation" target="nid_http://dublincore.org/usage/terms/history/#relation-006">
+    <edge id="eid_dcterms:hasVersion51" source="nid_dc:relation" target="nid_http://dublincore.org/usage/terms/history/#relation-006">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1359,7 +1382,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subPropertyOf51" source="nid_skos:narrowMatch" target="nid_skos:narrower">
+    <edge id="eid_rdfs:subPropertyOf52" source="nid_skos:narrowMatch" target="nid_skos:narrower">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1370,7 +1393,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subPropertyOf52" source="nid_skos:narrowMatch" target="nid_skos:mappingRelation">
+    <edge id="eid_rdfs:subPropertyOf53" source="nid_skos:narrowMatch" target="nid_skos:mappingRelation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1393,7 +1416,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subPropertyOf53" source="nid_skos:example" target="nid_skos:note">
+    <edge id="eid_rdfs:subPropertyOf54" source="nid_skos:example" target="nid_skos:note">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1428,7 +1451,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_dcterms:hasVersion54" source="nid_dc:date" target="nid_http://dublincore.org/usage/terms/history/#date-006">
+    <edge id="eid_dcterms:hasVersion55" source="nid_dc:date" target="nid_http://dublincore.org/usage/terms/history/#date-006">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1439,7 +1462,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:disjointWith55" source="nid_geo:Geometry" target="nid_geo:Feature">
+    <edge id="eid_owl:disjointWith56" source="nid_geo:Geometry" target="nid_geo:Feature">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1450,7 +1473,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subPropertyOf56" source="nid_skos:mappingRelation" target="nid_skos:semanticRelation">
+    <edge id="eid_rdfs:subPropertyOf57" source="nid_skos:mappingRelation" target="nid_skos:semanticRelation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1461,7 +1484,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:disjointWith57" source="nid_skos:Collection" target="nid_skos:ConceptScheme">
+    <edge id="eid_owl:disjointWith58" source="nid_skos:Collection" target="nid_skos:ConceptScheme">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1472,7 +1495,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:disjointWith58" source="nid_skos:Collection" target="nid_skos:Concept">
+    <edge id="eid_owl:disjointWith59" source="nid_skos:Collection" target="nid_skos:Concept">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1507,7 +1530,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subPropertyOf59" source="nid_skos:topConceptOf" target="nid_skos:inScheme">
+    <edge id="eid_rdfs:subPropertyOf60" source="nid_skos:topConceptOf" target="nid_skos:inScheme">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1542,7 +1565,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subPropertyOf60" source="nid_skos:exactMatch" target="nid_skos:closeMatch">
+    <edge id="eid_rdfs:subPropertyOf61" source="nid_skos:exactMatch" target="nid_skos:closeMatch">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1577,7 +1600,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_dcterms:hasVersion61" source="nid_dc:contributor" target="nid_http://dublincore.org/usage/terms/history/#contributor-006">
+    <edge id="eid_dcterms:hasVersion62" source="nid_dc:contributor" target="nid_http://dublincore.org/usage/terms/history/#contributor-006">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1612,7 +1635,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_dcterms:hasVersion62" source="nid_dc:coverage" target="nid_http://dublincore.org/usage/terms/history/#coverage-006">
+    <edge id="eid_dcterms:hasVersion63" source="nid_dc:coverage" target="nid_http://dublincore.org/usage/terms/history/#coverage-006">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1635,7 +1658,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subPropertyOf63" source="nid_skos:editorialNote" target="nid_skos:note">
+    <edge id="eid_rdfs:subPropertyOf64" source="nid_skos:editorialNote" target="nid_skos:note">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1646,7 +1669,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subPropertyOf64" source="nid_skos:closeMatch" target="nid_skos:mappingRelation">
+    <edge id="eid_rdfs:subPropertyOf65" source="nid_skos:closeMatch" target="nid_skos:mappingRelation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1681,7 +1704,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_dcterms:hasVersion65" source="nid_dc:rights" target="nid_http://dublincore.org/usage/terms/history/#rights-006">
+    <edge id="eid_dcterms:hasVersion66" source="nid_dc:rights" target="nid_http://dublincore.org/usage/terms/history/#rights-006">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1716,7 +1739,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_dcterms:hasVersion66" source="nid_dc:title" target="nid_http://dublincore.org/usage/terms/history/#title-006">
+    <edge id="eid_dcterms:hasVersion67" source="nid_dc:title" target="nid_http://dublincore.org/usage/terms/history/#title-006">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1727,7 +1750,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:imports67" source="nid_http://www.opengis.net/ont/gml" target="nid_http://www.opengis.net/ont/geosparql">
+    <edge id="eid_owl:imports68" source="nid_http://www.opengis.net/ont/gml" target="nid_http://www.opengis.net/ont/geosparql">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1750,7 +1773,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subPropertyOf68" source="nid_skos:scopeNote" target="nid_skos:note">
+    <edge id="eid_rdfs:subPropertyOf69" source="nid_skos:scopeNote" target="nid_skos:note">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1773,7 +1796,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_geo:rcc8ntpp69" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:rcc8ntpp70" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1784,7 +1807,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:sfOverlaps70" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:sfOverlaps71" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1795,7 +1818,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:hasGeometry71" source="nid_geo:Feature" target="nid_geo:Geometry">
+    <edge id="eid_geo:hasGeometry72" source="nid_geo:Feature" target="nid_geo:Geometry">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1818,7 +1841,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_geo:asGML72" source="nid_geo:Geometry" target="nid_geo:gmlLiteral">
+    <edge id="eid_geo:asGML73" source="nid_geo:Geometry" target="nid_geo:gmlLiteral">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1829,7 +1852,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:rcc8dc73" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:rcc8dc74" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1840,7 +1863,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:sfEquals74" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:sfEquals75" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1851,7 +1874,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:rcc8po75" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:rcc8po76" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1862,7 +1885,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_skos:hasTopConcept76" source="nid_skos:ConceptScheme" target="nid_skos:Concept">
+    <edge id="eid_skos:hasTopConcept77" source="nid_skos:ConceptScheme" target="nid_skos:Concept">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1873,7 +1896,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:sfContains77" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:sfContains78" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1896,7 +1919,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_skos:inScheme78" source="nid_owl:Thing" target="nid_skos:ConceptScheme">
+    <edge id="eid_skos:inScheme79" source="nid_owl:Thing" target="nid_skos:ConceptScheme">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1919,7 +1942,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_geo_core:xETRS8979" source="nid_owl:Thing" target="nid_xsd:float">
+    <edge id="eid_geo_core:xETRS8980" source="nid_owl:Thing" target="nid_xsd:float">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1942,7 +1965,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_geo:spatialDimension80" source="nid_geo:Geometry" target="nid_xsd:integer">
+    <edge id="eid_geo:spatialDimension81" source="nid_geo:Geometry" target="nid_xsd:integer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1965,7 +1988,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_geo:isSimple81" source="nid_geo:Geometry" target="nid_xsd:boolean">
+    <edge id="eid_geo:isSimple82" source="nid_geo:Geometry" target="nid_xsd:boolean">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2000,7 +2023,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_skos:memberList82" source="nid_skos:OrderedCollection" target="nid_rdf:List">
+    <edge id="eid_skos:memberList83" source="nid_skos:OrderedCollection" target="nid_rdf:List">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2011,7 +2034,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:rcc8tppi83" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:rcc8tppi84" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2022,7 +2045,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:ehCovers84" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:ehCovers85" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2045,7 +2068,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_geo:hasSerialization85" source="nid_geo:Geometry" target="nid_rdfs:Literal">
+    <edge id="eid_geo:hasSerialization86" source="nid_geo:Geometry" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2056,7 +2079,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:ehInside86" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:ehInside87" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2067,7 +2090,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:isEmpty87" source="nid_geo:Geometry" target="nid_xsd:boolean">
+    <edge id="eid_geo:isEmpty88" source="nid_geo:Geometry" target="nid_xsd:boolean">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2078,7 +2101,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:defaultGeometry88" source="nid_geo:Feature" target="nid_geo:Geometry">
+    <edge id="eid_geo:defaultGeometry89" source="nid_geo:Feature" target="nid_geo:Geometry">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2089,7 +2112,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:ehDisjoint89" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:ehDisjoint90" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2100,7 +2123,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:sfWithin90" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:sfWithin91" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2111,7 +2134,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:ehOverlap91" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:ehOverlap92" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2122,7 +2145,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:sfDisjoint92" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:sfDisjoint93" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2145,7 +2168,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_geo:asWKT93" source="nid_geo:Geometry" target="nid_geo:wktLiteral">
+    <edge id="eid_geo:asWKT94" source="nid_geo:Geometry" target="nid_geo:wktLiteral">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2156,7 +2179,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_skos:topConceptOf94" source="nid_skos:Concept" target="nid_skos:ConceptScheme">
+    <edge id="eid_skos:topConceptOf95" source="nid_skos:Concept" target="nid_skos:ConceptScheme">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2167,7 +2190,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:coordinateDimension95" source="nid_geo:Geometry" target="nid_xsd:integer">
+    <edge id="eid_geo:coordinateDimension96" source="nid_geo:Geometry" target="nid_xsd:integer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2178,19 +2201,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-1c020bae:16079bcb1a0:-7ffc">
+      <node id="nid_-25005033:1607a18dd0e:-7ffc">
          <data key="d0">
             <y:ShapeNode>
                <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
                <y:Fill color="#FFA500" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-1c020bae:16079bcb1a0:-7ffc</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-25005033:1607a18dd0e:-7ffc</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_skos:member96" source="nid_skos:Collection" target="nid_-1c020bae:16079bcb1a0:-7ffc">
+    <edge id="eid_skos:member97" source="nid_skos:Collection" target="nid_-25005033:1607a18dd0e:-7ffc">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2201,7 +2224,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:sfIntersects97" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:sfIntersects98" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2212,7 +2235,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo_core:yETRS8998" source="nid_owl:Thing" target="nid_xsd:float">
+    <edge id="eid_geo_core:yETRS8999" source="nid_owl:Thing" target="nid_xsd:float">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2223,7 +2246,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:rcc8ec99" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:rcc8ec100" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2234,7 +2257,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:ehEquals100" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:ehEquals101" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2245,7 +2268,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:dimension101" source="nid_geo:Geometry" target="nid_xsd:integer">
+    <edge id="eid_geo:dimension102" source="nid_geo:Geometry" target="nid_xsd:integer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2256,7 +2279,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:rcc8eq102" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:rcc8eq103" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2267,7 +2290,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:sfTouches103" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:sfTouches104" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2278,7 +2301,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:ehCoveredBy104" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:ehCoveredBy105" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2289,7 +2312,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:rcc8tpp105" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:rcc8tpp106" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2300,7 +2323,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_skos:semanticRelation106" source="nid_skos:Concept" target="nid_skos:Concept">
+    <edge id="eid_skos:semanticRelation107" source="nid_skos:Concept" target="nid_skos:Concept">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2311,7 +2334,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:rcc8ntppi107" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:rcc8ntppi108" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2322,7 +2345,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:ehContains108" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:ehContains109" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2333,7 +2356,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:ehMeet109" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:ehMeet110" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2344,7 +2367,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_geo:sfCrosses110" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
+    <edge id="eid_geo:sfCrosses111" source="nid_geo:SpatialObject" target="nid_geo:SpatialObject">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />

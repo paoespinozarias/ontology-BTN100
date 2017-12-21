@@ -1,11 +1,12 @@
 <https://datos.ign.es/def/geo_core> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://datos.ign.es/def/geo_core> <http://www.w3.org/2002/07/owl#versionIRI> <https://datos.ign.es/def/geo_core> .
 <https://datos.ign.es/def/geo_core> <http://www.w3.org/2002/07/owl#imports> <http://www.opengis.net/ont/geosparql> .
-<https://datos.ign.es/def/geo_core> <http://purl.org/dc/elements/1.1/date> "2017-12-20"@es .
+<https://datos.ign.es/def/geo_core> <http://purl.org/dc/elements/1.1/date> "2017-12-21"@es .
 <https://datos.ign.es/def/geo_core> <http://purl.org/dc/terms/contributor> "Oscar Corcho Garc\u00EDa (Ontology Engineering Group - Universidad Polit\u00E9cnica de Madrid)"@es .
 <https://datos.ign.es/def/geo_core> <http://purl.org/dc/terms/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Polit\u00E9cnica de Madrid)"@es .
 <https://datos.ign.es/def/geo_core> <http://purl.org/dc/terms/creator> "Pedro Vivas White (Instituto Geogr\u00E1fico Nacional)"@es .
 <https://datos.ign.es/def/geo_core> <http://purl.org/dc/terms/description> "Ontolog\u00EDa para la representaci\u00F3n de Objetos Geogr\u00E1ficos"@es .
+<https://datos.ign.es/def/geo_core> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <https://datos.ign.es/def/geo_core> <http://purl.org/dc/terms/publisher> "Instituto Geogr\u00E1fico Nacional"@es .
 <https://datos.ign.es/def/geo_core> <http://purl.org/dc/terms/title> "Ontolog\u00EDa para la representaci\u00F3n de Objetos Geogr\u00E1ficos"@es .
 <https://datos.ign.es/def/geo_core> <http://purl.org/vocab/vann/preferredNamespacePrefix> "geo_core"@es .
@@ -22,6 +23,9 @@
 # 
 # http://purl.org/dc/elements/1.1/source
 <http://purl.org/dc/elements/1.1/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/vocab/vann/preferredNamespacePrefix
 <http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
