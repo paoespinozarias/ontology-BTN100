@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://datos.ign.es/def/"
-     xml:base="https://datos.ign.es/def/"
+<rdf:RDF xmlns="https://datos.ign.es/def/btn100#"
+     xml:base="https://datos.ign.es/def/btn100"
      xmlns:van="http://purl.org/vocab/vann/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:terms="http://purl.org/dc/terms/"
