@@ -783,7 +783,7 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
 
 ###  https://datos.ign.es/def/btn100#AccidenteMaritimoPuntual
 :AccidenteMaritimoPuntual rdf:type owl:Class ;
-                          rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error20> ,
+                          rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error22> ,
                                           <https://datos.ign.es/def/geo_core#ObjetoGeografico> ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty <http://purl.org/dc/terms/title> ;
@@ -986,7 +986,7 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
 
 ###  https://datos.ign.es/def/btn100#Carretera
 :Carretera rdf:type owl:Class ;
-           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error17> ,
+           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error18> ,
                            <https://datos.ign.es/def/geo_core#ObjetoGeografico> ,
                            [ rdf:type owl:Restriction ;
                              owl:onProperty <http://purl.org/dc/terms/title> ;
@@ -1417,7 +1417,7 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
 
 ###  https://datos.ign.es/def/btn100#Faro
 :Faro rdf:type owl:Class ;
-      rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error15> ,
+      rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error16> ,
                       <https://datos.ign.es/def/geo_core#ObjetoGeografico> ,
                       [ rdf:type owl:Restriction ;
                         owl:onProperty <http://purl.org/dc/terms/title> ;
@@ -1669,7 +1669,7 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
 
 ###  https://datos.ign.es/def/btn100#LugarDeInteres
 :LugarDeInteres rdf:type owl:Class ;
-                rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error22> ,
+                rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error20> ,
                                 <https://datos.ign.es/def/geo_core#ObjetoGeografico> ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty <http://purl.org/dc/terms/title> ;
@@ -1953,7 +1953,7 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
 
 ###  https://datos.ign.es/def/btn100#Rio
 :Rio rdf:type owl:Class ;
-     rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error16> ,
+     rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error15> ,
                      <https://datos.ign.es/def/geo_core#ObjetoGeografico> ,
                      [ rdf:type owl:Restriction ;
                        owl:onProperty <http://purl.org/dc/terms/title> ;
@@ -2143,7 +2143,7 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
 
 ###  https://datos.ign.es/def/btn100#ZonaDeUsoCaracteristico
 :ZonaDeUsoCaracteristico rdf:type owl:Class ;
-                         rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error18> ,
+                         rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error17> ,
                                          <https://datos.ign.es/def/geo_core#ObjetoGeografico> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty <http://purl.org/dc/terms/title> ;
@@ -2251,15 +2251,9 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
 <https://datos.ign.es/def/geo_core#ObjetoGeografico> rdf:type owl:Class .
 
 
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
 ] .
 
-[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
@@ -2267,27 +2261,6 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
  ] .
 
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
@@ -2320,6 +2293,24 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
 [ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
@@ -2329,7 +2320,16 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
 [ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
 [ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 ###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
