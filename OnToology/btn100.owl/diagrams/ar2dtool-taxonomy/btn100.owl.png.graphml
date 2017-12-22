@@ -5,7 +5,7 @@
    <key for="edge" id="d2" yfiles.type="edgegraphics" />
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
-   <graph edgedefault="directed" id="G" parse.edges="173" parse.nodes="173" parse.order="free">
+   <graph edgedefault="directed" id="G" parse.edges="200" parse.nodes="200" parse.order="free">
       <node id="nid_btn100:ZonaProtegida">
          <data key="d0">
             <y:ShapeNode>
@@ -18,19 +18,42 @@
          </data>
          <data key="d1" />
       </node>
-      <node id="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+      <node id="nid_geo_core:ObjetoGeografico">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="500.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="250.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://datos.ign.es/def/geo_core#ObjetoGeografico</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">geo_core:ObjetoGeografico</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf0" source="nid_btn100:ZonaProtegida" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf0" source="nid_btn100:ZonaProtegida" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error8">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="420.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error8</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf1" source="nid_btn100:ZonaProtegida" target="nid_http://org.semanticweb.owlapi/error#Error8">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -65,7 +88,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf1" source="nid_btn100:RioLineal" target="nid_btn100:Rio">
+    <edge id="eid_rdfs:subClassOf2" source="nid_btn100:RioLineal" target="nid_btn100:Rio">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -100,7 +123,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf2" source="nid_btn100:CanalTrasvase" target="nid_btn100:CauceArtificial">
+    <edge id="eid_rdfs:subClassOf3" source="nid_btn100:CanalTrasvase" target="nid_btn100:CauceArtificial">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -135,7 +158,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf3" source="nid_btn100:Mar" target="nid_btn100:EntidadVirtual">
+    <edge id="eid_rdfs:subClassOf4" source="nid_btn100:Mar" target="nid_btn100:EntidadVirtual">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -170,7 +193,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf4" source="nid_btn100:Apeadero" target="nid_btn100:InstalacionFerroviaria">
+    <edge id="eid_rdfs:subClassOf5" source="nid_btn100:Apeadero" target="nid_btn100:InstalacionFerroviaria">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -193,7 +216,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf5" source="nid_btn100:EntidadVirtualAccidenteOrografico" target="nid_btn100:EntidadVirtual">
+    <edge id="eid_rdfs:subClassOf6" source="nid_btn100:EntidadVirtualAccidenteOrografico" target="nid_btn100:EntidadVirtual">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -228,7 +251,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf6" source="nid_btn100:Balneario" target="nid_btn100:AlojamientoYOcio">
+    <edge id="eid_rdfs:subClassOf7" source="nid_btn100:Balneario" target="nid_btn100:AlojamientoYOcio">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -263,7 +286,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf7" source="nid_btn100:DiseminadoPuntual" target="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado">
+    <edge id="eid_rdfs:subClassOf8" source="nid_btn100:DiseminadoPuntual" target="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -298,7 +321,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf8" source="nid_btn100:CarreteraNacional" target="nid_btn100:Carretera">
+    <edge id="eid_rdfs:subClassOf9" source="nid_btn100:CarreteraNacional" target="nid_btn100:Carretera">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -333,7 +356,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf9" source="nid_btn100:EstacionDeRadio" target="nid_btn100:EstacionDeTelecomunicaciones">
+    <edge id="eid_rdfs:subClassOf10" source="nid_btn100:EstacionDeRadio" target="nid_btn100:EstacionDeTelecomunicaciones">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -368,7 +391,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf10" source="nid_btn100:Cueva" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf11" source="nid_btn100:Cueva" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -391,7 +414,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf11" source="nid_btn100:Puente" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf12" source="nid_btn100:Puente" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -426,7 +449,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf12" source="nid_btn100:Telesqui" target="nid_btn100:TransporteSuspendido">
+    <edge id="eid_rdfs:subClassOf13" source="nid_btn100:Telesqui" target="nid_btn100:TransporteSuspendido">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -461,7 +484,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf13" source="nid_btn100:ZonaVerde" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf14" source="nid_btn100:ZonaVerde" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -496,7 +519,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf14" source="nid_btn100:Aeropuerto" target="nid_btn100:InfraestructuraAeroportuaria">
+    <edge id="eid_rdfs:subClassOf15" source="nid_btn100:Aeropuerto" target="nid_btn100:InfraestructuraAeroportuaria">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -507,7 +530,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf15" source="nid_btn100:TransporteSuspendido" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf16" source="nid_btn100:TransporteSuspendido" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -542,7 +565,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf16" source="nid_btn100:Cantera" target="nid_btn100:ExplotacionMinera">
+    <edge id="eid_rdfs:subClassOf17" source="nid_btn100:Cantera" target="nid_btn100:ExplotacionMinera">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -577,7 +600,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf17" source="nid_btn100:Balsa" target="nid_btn100:Alberca">
+    <edge id="eid_rdfs:subClassOf18" source="nid_btn100:Balsa" target="nid_btn100:Alberca">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -600,7 +623,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf18" source="nid_btn100:Ria" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf19" source="nid_btn100:Ria" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error26">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error26</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf20" source="nid_btn100:Ria" target="nid_http://org.semanticweb.owlapi/error#Error26">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -635,7 +681,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf19" source="nid_btn100:PuertoMontana" target="nid_btn100:PuntoAcotado">
+    <edge id="eid_rdfs:subClassOf21" source="nid_btn100:PuertoMontana" target="nid_btn100:PuntoAcotado">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -658,7 +704,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf20" source="nid_btn100:Autovia" target="nid_btn100:Carretera">
+    <edge id="eid_rdfs:subClassOf22" source="nid_btn100:Autovia" target="nid_btn100:Carretera">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -681,7 +727,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf21" source="nid_btn100:Autopista" target="nid_btn100:Carretera">
+    <edge id="eid_rdfs:subClassOf23" source="nid_btn100:Autopista" target="nid_btn100:Carretera">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -716,7 +762,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf22" source="nid_btn100:CentralTermica" target="nid_btn100:CentralElectrica">
+    <edge id="eid_rdfs:subClassOf24" source="nid_btn100:CentralTermica" target="nid_btn100:CentralElectrica">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -739,7 +785,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf23" source="nid_btn100:Collado" target="nid_btn100:PuntoAcotado">
+    <edge id="eid_rdfs:subClassOf25" source="nid_btn100:Collado" target="nid_btn100:PuntoAcotado">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -762,7 +808,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf24" source="nid_btn100:EstacionDeSuministro" target="nid_btn100:InstalacionFerroviaria">
+    <edge id="eid_rdfs:subClassOf26" source="nid_btn100:EstacionDeSuministro" target="nid_btn100:InstalacionFerroviaria">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -797,7 +843,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf25" source="nid_btn100:IslaFluvial" target="nid_btn100:Isla">
+    <edge id="eid_rdfs:subClassOf27" source="nid_btn100:IslaFluvial" target="nid_btn100:Isla">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -832,7 +878,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf26" source="nid_btn100:CurvaDeNivelAltimetrica" target="nid_btn100:CurvaDeNivel">
+    <edge id="eid_rdfs:subClassOf28" source="nid_btn100:CurvaDeNivelAltimetrica" target="nid_btn100:CurvaDeNivel">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -855,7 +901,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf27" source="nid_btn100:SubestacionElectrica" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf29" source="nid_btn100:SubestacionElectrica" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -890,7 +936,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf28" source="nid_btn100:Playa" target="nid_btn100:AccidenteMaritimoPuntual">
+    <edge id="eid_rdfs:subClassOf30" source="nid_btn100:Playa" target="nid_btn100:AccidenteMaritimoPuntual">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -901,7 +947,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf29" source="nid_btn100:EstacionDeTelecomunicaciones" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf31" source="nid_btn100:EstacionDeTelecomunicaciones" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -924,7 +970,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf30" source="nid_btn100:PistaDeAterrizaje" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf32" source="nid_btn100:PistaDeAterrizaje" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -947,7 +993,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf31" source="nid_btn100:ZonaEspecialProteccionAves" target="nid_btn100:ZonaProtegida">
+    <edge id="eid_rdfs:subClassOf33" source="nid_btn100:ZonaEspecialProteccionAves" target="nid_btn100:ZonaProtegida">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -982,7 +1028,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf32" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Provincia" target="nid_btn100:UnidadAdministrativa">
+    <edge id="eid_rdfs:subClassOf34" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Provincia" target="nid_btn100:UnidadAdministrativa">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -993,7 +1039,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf33" source="nid_btn100:Alberca" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf35" source="nid_btn100:Alberca" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1016,7 +1062,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf34" source="nid_btn100:ZonaPortuaria" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf36" source="nid_btn100:ZonaPortuaria" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1039,7 +1085,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf35" source="nid_btn100:ParqueNatural" target="nid_btn100:ZonaProtegida">
+    <edge id="eid_rdfs:subClassOf37" source="nid_btn100:ParqueNatural" target="nid_btn100:ZonaProtegida">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1062,7 +1108,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf36" source="nid_btn100:CotaMunicipal" target="nid_btn100:PuntoAcotado">
+    <edge id="eid_rdfs:subClassOf38" source="nid_btn100:CotaMunicipal" target="nid_btn100:PuntoAcotado">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1085,7 +1131,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf37" source="nid_btn100:EdificioSingular" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf39" source="nid_btn100:EdificioSingular" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1108,7 +1154,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf38" source="nid_btn100:Muralla" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf40" source="nid_btn100:Muralla" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1131,7 +1177,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf39" source="nid_btn100:Invernadero" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf41" source="nid_btn100:Invernadero" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1154,7 +1200,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf40" source="nid_btn100:Cala" target="nid_btn100:AccidenteMaritimoPuntual">
+    <edge id="eid_rdfs:subClassOf42" source="nid_btn100:Cala" target="nid_btn100:AccidenteMaritimoPuntual">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1177,7 +1223,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf41" source="nid_btn100:JardinHistorico" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf43" source="nid_btn100:JardinHistorico" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1212,7 +1258,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf42" source="nid_btn100:VerticeGeodesicoRegcan95" target="nid_btn100:VerticeGeodesico">
+    <edge id="eid_rdfs:subClassOf44" source="nid_btn100:VerticeGeodesicoRegcan95" target="nid_btn100:VerticeGeodesico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1223,7 +1269,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf43" source="nid_btn100:VerticeGeodesico" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf45" source="nid_btn100:VerticeGeodesico" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error27">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error27</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf46" source="nid_btn100:VerticeGeodesico" target="nid_http://org.semanticweb.owlapi/error#Error27">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1258,7 +1327,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf44" source="nid_btn100:Albufera" target="nid_btn100:Humedal">
+    <edge id="eid_rdfs:subClassOf47" source="nid_btn100:Albufera" target="nid_btn100:Humedal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1281,7 +1350,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf45" source="nid_btn100:Telesilla" target="nid_btn100:TransporteSuspendido">
+    <edge id="eid_rdfs:subClassOf48" source="nid_btn100:Telesilla" target="nid_btn100:TransporteSuspendido">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1316,7 +1385,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf46" source="nid_btn100:FerrocarrilConvencional" target="nid_btn100:Ferrocarril">
+    <edge id="eid_rdfs:subClassOf49" source="nid_btn100:FerrocarrilConvencional" target="nid_btn100:Ferrocarril">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1351,7 +1420,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf47" source="nid_btn100:Oleoducto" target="nid_btn100:ConduccionDeCombustible">
+    <edge id="eid_rdfs:subClassOf50" source="nid_btn100:Oleoducto" target="nid_btn100:ConduccionDeCombustible">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1374,7 +1443,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf48" source="nid_btn100:ParadorNacional" target="nid_btn100:AlojamientoYOcio">
+    <edge id="eid_rdfs:subClassOf51" source="nid_btn100:ParadorNacional" target="nid_btn100:AlojamientoYOcio">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1397,7 +1466,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf49" source="nid_btn100:CentralHidraulica" target="nid_btn100:CentralElectrica">
+    <edge id="eid_rdfs:subClassOf52" source="nid_btn100:CentralHidraulica" target="nid_btn100:CentralElectrica">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1408,7 +1477,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf50" source="nid_btn100:PuntoAcotado" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf53" source="nid_btn100:PuntoAcotado" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error1">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="420.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error1</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf54" source="nid_btn100:PuntoAcotado" target="nid_http://org.semanticweb.owlapi/error#Error1">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1431,7 +1523,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf51" source="nid_btn100:Oceano" target="nid_btn100:EntidadVirtual">
+    <edge id="eid_rdfs:subClassOf55" source="nid_btn100:Oceano" target="nid_btn100:EntidadVirtual">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1454,7 +1546,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf52" source="nid_btn100:Rambla" target="nid_btn100:Humedal">
+    <edge id="eid_rdfs:subClassOf56" source="nid_btn100:Rambla" target="nid_btn100:Humedal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1477,7 +1569,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf53" source="nid_btn100:Embalse" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf57" source="nid_btn100:Embalse" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error19">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error19</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf58" source="nid_btn100:Embalse" target="nid_http://org.semanticweb.owlapi/error#Error19">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1512,7 +1627,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf54" source="nid_btn100:Estrecho" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
+    <edge id="eid_rdfs:subClassOf59" source="nid_btn100:Estrecho" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1535,7 +1650,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf55" source="nid_btn100:CanalMayor" target="nid_btn100:CauceArtificial">
+    <edge id="eid_rdfs:subClassOf60" source="nid_btn100:CanalMayor" target="nid_btn100:CauceArtificial">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1558,7 +1673,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf56" source="nid_btn100:Costa" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
+    <edge id="eid_rdfs:subClassOf61" source="nid_btn100:Costa" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1581,7 +1696,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf57" source="nid_btn100:Cementerio" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf62" source="nid_btn100:Cementerio" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1592,7 +1707,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf58" source="nid_btn100:Cementerio" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf63" source="nid_btn100:Cementerio" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1615,7 +1730,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf59" source="nid_btn100:ConjuntoHistoricoArtistico" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf64" source="nid_btn100:ConjuntoHistoricoArtistico" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1638,7 +1753,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf60" source="nid_btn100:CentralSolar" target="nid_btn100:CentralElectrica">
+    <edge id="eid_rdfs:subClassOf65" source="nid_btn100:CentralSolar" target="nid_btn100:CentralElectrica">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1661,7 +1776,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf61" source="nid_btn100:VerticeGeodesicoDeOrdenInferior" target="nid_btn100:VerticeGeodesico">
+    <edge id="eid_rdfs:subClassOf66" source="nid_btn100:VerticeGeodesicoDeOrdenInferior" target="nid_btn100:VerticeGeodesico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1684,7 +1799,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf62" source="nid_btn100:Golfo" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
+    <edge id="eid_rdfs:subClassOf67" source="nid_btn100:Golfo" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1707,7 +1822,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf63" source="nid_btn100:Faro" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf68" source="nid_btn100:Faro" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error15">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error15</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf69" source="nid_btn100:Faro" target="nid_http://org.semanticweb.owlapi/error#Error15">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1730,7 +1868,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf64" source="nid_btn100:CentralEolica" target="nid_btn100:CentralElectrica">
+    <edge id="eid_rdfs:subClassOf70" source="nid_btn100:CentralEolica" target="nid_btn100:CentralElectrica">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1753,7 +1891,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf65" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#NucleoPoblacion" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+      <node id="nid_http://org.semanticweb.owlapi/error#Error10">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error10</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf71" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#NucleoPoblacion" target="nid_http://org.semanticweb.owlapi/error#Error10">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf72" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#NucleoPoblacion" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1776,7 +1937,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf66" source="nid_btn100:Estanque" target="nid_btn100:Alberca">
+    <edge id="eid_rdfs:subClassOf73" source="nid_btn100:Estanque" target="nid_btn100:Alberca">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1799,7 +1960,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf67" source="nid_btn100:Paraje" target="nid_btn100:EntidadVirtualAccidenteOrografico">
+    <edge id="eid_rdfs:subClassOf74" source="nid_btn100:Paraje" target="nid_btn100:EntidadVirtualAccidenteOrografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1822,7 +1983,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf68" source="nid_btn100:CarreteraAutonomica" target="nid_btn100:Carretera">
+    <edge id="eid_rdfs:subClassOf75" source="nid_btn100:CarreteraAutonomica" target="nid_btn100:Carretera">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1833,7 +1994,19 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf69" source="nid_btn100:Rio" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+      <node id="nid_http://org.semanticweb.owlapi/error#Error16">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error16</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf76" source="nid_btn100:Rio" target="nid_http://org.semanticweb.owlapi/error#Error16">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1844,7 +2017,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf70" source="nid_btn100:CauceArtificial" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf77" source="nid_btn100:Rio" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1855,7 +2028,64 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf71" source="nid_btn100:AlojamientoYOcio" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf78" source="nid_btn100:CauceArtificial" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error3">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="420.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error3</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf79" source="nid_btn100:CauceArtificial" target="nid_http://org.semanticweb.owlapi/error#Error3">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf80" source="nid_btn100:AlojamientoYOcio" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error7">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="420.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error7</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf81" source="nid_btn100:AlojamientoYOcio" target="nid_http://org.semanticweb.owlapi/error#Error7">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1878,7 +2108,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf72" source="nid_btn100:DiseminadoSuperficial" target="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado">
+    <edge id="eid_rdfs:subClassOf82" source="nid_btn100:DiseminadoSuperficial" target="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1901,7 +2131,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf73" source="nid_btn100:ZonaMilitar" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf83" source="nid_btn100:ZonaMilitar" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1924,7 +2154,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf74" source="nid_btn100:Albergue" target="nid_btn100:AlojamientoYOcio">
+    <edge id="eid_rdfs:subClassOf84" source="nid_btn100:Albergue" target="nid_btn100:AlojamientoYOcio">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1947,7 +2177,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf75" source="nid_btn100:Penyon" target="nid_btn100:AccidenteMaritimoPuntual">
+    <edge id="eid_rdfs:subClassOf85" source="nid_btn100:Penyon" target="nid_btn100:AccidenteMaritimoPuntual">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1970,7 +2200,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf76" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Pais" target="nid_btn100:UnidadAdministrativa">
+    <edge id="eid_rdfs:subClassOf86" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Pais" target="nid_btn100:UnidadAdministrativa">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1993,7 +2223,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf77" source="nid_btn100:Canyo" target="nid_btn100:Humedal">
+    <edge id="eid_rdfs:subClassOf87" source="nid_btn100:Canyo" target="nid_btn100:Humedal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2016,7 +2246,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf78" source="nid_btn100:ZonaUniversitaria" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf88" source="nid_btn100:ZonaUniversitaria" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2039,7 +2269,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf79" source="nid_btn100:Camping" target="nid_btn100:AlojamientoYOcio">
+    <edge id="eid_rdfs:subClassOf89" source="nid_btn100:Camping" target="nid_btn100:AlojamientoYOcio">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2050,7 +2280,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf80" source="nid_btn100:CurvaDeNivel" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf90" source="nid_btn100:CurvaDeNivel" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2073,7 +2303,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf81" source="nid_btn100:Cabo" target="nid_btn100:AccidenteMaritimoPuntual">
+    <edge id="eid_rdfs:subClassOf91" source="nid_btn100:Cabo" target="nid_btn100:AccidenteMaritimoPuntual">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2096,7 +2326,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf82" source="nid_btn100:LugarImportanciaComunitaria" target="nid_btn100:ZonaProtegida">
+    <edge id="eid_rdfs:subClassOf92" source="nid_btn100:LugarImportanciaComunitaria" target="nid_btn100:ZonaProtegida">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2131,7 +2361,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf83" source="nid_btn100:ItinerarioDeCaminoDeSantiago" target="nid_btn100:Itinerario">
+    <edge id="eid_rdfs:subClassOf93" source="nid_btn100:ItinerarioDeCaminoDeSantiago" target="nid_btn100:Itinerario">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2154,7 +2384,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf84" source="nid_btn100:AreaDeServicio" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf94" source="nid_btn100:AreaDeServicio" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2177,7 +2407,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf85" source="nid_btn100:Cerro" target="nid_btn100:PuntoAcotado">
+    <edge id="eid_rdfs:subClassOf95" source="nid_btn100:Cerro" target="nid_btn100:PuntoAcotado">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2188,7 +2418,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf86" source="nid_btn100:InstalacionFerroviaria" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf96" source="nid_btn100:InstalacionFerroviaria" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error9">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="420.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error9</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf97" source="nid_btn100:InstalacionFerroviaria" target="nid_http://org.semanticweb.owlapi/error#Error9">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2211,7 +2464,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf87" source="nid_btn100:PasoANivel" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf98" source="nid_btn100:PasoANivel" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2234,7 +2487,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf88" source="nid_btn100:ItinerarioDeViaVerde" target="nid_btn100:Itinerario">
+    <edge id="eid_rdfs:subClassOf99" source="nid_btn100:ItinerarioDeViaVerde" target="nid_btn100:Itinerario">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2257,7 +2510,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf89" source="nid_btn100:CentralNuclear" target="nid_btn100:CentralElectrica">
+    <edge id="eid_rdfs:subClassOf100" source="nid_btn100:CentralNuclear" target="nid_btn100:CentralElectrica">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2280,7 +2533,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf90" source="nid_btn100:Pista" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf101" source="nid_btn100:Pista" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2303,7 +2556,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf91" source="nid_btn100:ZonaFerroviaria" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf102" source="nid_btn100:ZonaFerroviaria" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2314,7 +2567,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf92" source="nid_btn100:Isla" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf103" source="nid_btn100:Isla" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2337,7 +2590,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf93" source="nid_btn100:Cordillera" target="nid_btn100:EntidadVirtualAccidenteOrografico">
+    <edge id="eid_rdfs:subClassOf104" source="nid_btn100:Cordillera" target="nid_btn100:EntidadVirtualAccidenteOrografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2360,7 +2613,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf94" source="nid_btn100:Mina" target="nid_btn100:ExplotacionMinera">
+    <edge id="eid_rdfs:subClassOf105" source="nid_btn100:Mina" target="nid_btn100:ExplotacionMinera">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2383,7 +2636,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf95" source="nid_btn100:Cargadero" target="nid_btn100:InstalacionFerroviaria">
+    <edge id="eid_rdfs:subClassOf106" source="nid_btn100:Cargadero" target="nid_btn100:InstalacionFerroviaria">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2394,7 +2647,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf96" source="nid_btn100:InfraestructuraAeroportuaria" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf107" source="nid_btn100:InfraestructuraAeroportuaria" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error11">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error11</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf108" source="nid_btn100:InfraestructuraAeroportuaria" target="nid_http://org.semanticweb.owlapi/error#Error11">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2417,7 +2693,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf97" source="nid_btn100:RioSuperficial" target="nid_btn100:Rio">
+    <edge id="eid_rdfs:subClassOf109" source="nid_btn100:RioSuperficial" target="nid_btn100:Rio">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2440,7 +2716,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf98" source="nid_btn100:Rada" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
+    <edge id="eid_rdfs:subClassOf110" source="nid_btn100:Rada" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2463,7 +2739,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf99" source="nid_btn100:SitioHistorico" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf111" source="nid_btn100:SitioHistorico" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2486,7 +2762,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf100" source="nid_btn100:NucleoPoblacionSuperficial" target="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#NucleoPoblacion">
+    <edge id="eid_rdfs:subClassOf112" source="nid_btn100:NucleoPoblacionSuperficial" target="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#NucleoPoblacion">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2509,7 +2785,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf101" source="nid_btn100:ZonaDeportiva" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf113" source="nid_btn100:ZonaDeportiva" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2532,7 +2808,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf102" source="nid_btn100:Sierra" target="nid_btn100:EntidadVirtualAccidenteOrografico">
+    <edge id="eid_rdfs:subClassOf114" source="nid_btn100:Sierra" target="nid_btn100:EntidadVirtualAccidenteOrografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2555,7 +2831,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf103" source="nid_btn100:Gasoducto" target="nid_btn100:ConduccionDeCombustible">
+    <edge id="eid_rdfs:subClassOf115" source="nid_btn100:Gasoducto" target="nid_btn100:ConduccionDeCombustible">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2566,7 +2842,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf104" source="nid_btn100:ZonaDeUsoCaracteristico" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf116" source="nid_btn100:ZonaDeUsoCaracteristico" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2577,7 +2853,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf105" source="nid_btn100:ConduccionDeCombustible" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+      <node id="nid_http://org.semanticweb.owlapi/error#Error18">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error18</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf117" source="nid_btn100:ZonaDeUsoCaracteristico" target="nid_http://org.semanticweb.owlapi/error#Error18">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf118" source="nid_btn100:ConduccionDeCombustible" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2600,7 +2899,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf106" source="nid_btn100:CentralCicloCombinado" target="nid_btn100:CentralElectrica">
+    <edge id="eid_rdfs:subClassOf119" source="nid_btn100:CentralCicloCombinado" target="nid_btn100:CentralElectrica">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2623,7 +2922,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf107" source="nid_btn100:VerticeGeodesicoRegente" target="nid_btn100:VerticeGeodesico">
+    <edge id="eid_rdfs:subClassOf120" source="nid_btn100:VerticeGeodesicoRegente" target="nid_btn100:VerticeGeodesico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2646,7 +2945,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf108" source="nid_btn100:DepositoDeCombustible" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf121" source="nid_btn100:DepositoDeCombustible" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2669,7 +2968,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf109" source="nid_btn100:Gasolinera" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf122" source="nid_btn100:Gasolinera" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2692,7 +2991,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf110" source="nid_btn100:Hospital" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf123" source="nid_btn100:Hospital" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2715,7 +3014,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf111" source="nid_btn100:ZonaArqueologica" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf124" source="nid_btn100:ZonaArqueologica" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2726,7 +3025,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf112" source="nid_btn100:EntidadVirtual" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf125" source="nid_btn100:EntidadVirtual" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2737,7 +3036,19 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf113" source="nid_btn100:CentralElectrica" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+      <node id="nid_http://org.semanticweb.owlapi/error#Error2">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="420.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error2</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf126" source="nid_btn100:EntidadVirtual" target="nid_http://org.semanticweb.owlapi/error#Error2">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2748,7 +3059,41 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf114" source="nid_btn100:Ferrocarril" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf127" source="nid_btn100:CentralElectrica" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf128" source="nid_btn100:Ferrocarril" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error5">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="420.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error5</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf129" source="nid_btn100:Ferrocarril" target="nid_http://org.semanticweb.owlapi/error#Error5">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2771,7 +3116,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf115" source="nid_btn100:EdificioReligioso" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf130" source="nid_btn100:EdificioReligioso" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2794,7 +3139,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf116" source="nid_btn100:EstacionPermanenteGPS" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf131" source="nid_btn100:EstacionPermanenteGPS" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error24">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error24</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf132" source="nid_btn100:EstacionPermanenteGPS" target="nid_http://org.semanticweb.owlapi/error#Error24">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2817,7 +3185,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf117" source="nid_btn100:Marisma" target="nid_btn100:Humedal">
+    <edge id="eid_rdfs:subClassOf133" source="nid_btn100:Marisma" target="nid_btn100:Humedal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2840,7 +3208,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf118" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#ComunidadAutonoma" target="nid_btn100:UnidadAdministrativa">
+    <edge id="eid_rdfs:subClassOf134" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#ComunidadAutonoma" target="nid_btn100:UnidadAdministrativa">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2875,7 +3243,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf119" source="nid_btn100:LineaElectricaDeBajaTension" target="nid_btn100:LineaElectrica">
+    <edge id="eid_rdfs:subClassOf135" source="nid_btn100:LineaElectricaDeBajaTension" target="nid_btn100:LineaElectrica">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2898,7 +3266,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf120" source="nid_btn100:Punta" target="nid_btn100:AccidenteMaritimoPuntual">
+    <edge id="eid_rdfs:subClassOf136" source="nid_btn100:Punta" target="nid_btn100:AccidenteMaritimoPuntual">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2921,7 +3289,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf121" source="nid_btn100:Teleferico" target="nid_btn100:TransporteSuspendido">
+    <edge id="eid_rdfs:subClassOf137" source="nid_btn100:Teleferico" target="nid_btn100:TransporteSuspendido">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2932,7 +3300,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf122" source="nid_btn100:LugarDeInteres" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf138" source="nid_btn100:LugarDeInteres" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error22">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error22</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf139" source="nid_btn100:LugarDeInteres" target="nid_http://org.semanticweb.owlapi/error#Error22">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2955,7 +3346,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf123" source="nid_btn100:ZonaIndustrial" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf140" source="nid_btn100:ZonaIndustrial" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2978,7 +3369,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf124" source="nid_btn100:InstalacionDeportiva" target="nid_btn100:AlojamientoYOcio">
+    <edge id="eid_rdfs:subClassOf141" source="nid_btn100:InstalacionDeportiva" target="nid_btn100:AlojamientoYOcio">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3001,7 +3392,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf125" source="nid_btn100:CanalMenor" target="nid_btn100:CauceArtificial">
+    <edge id="eid_rdfs:subClassOf142" source="nid_btn100:CanalMenor" target="nid_btn100:CauceArtificial">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3024,7 +3415,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf126" source="nid_btn100:ComarcaRegion" target="nid_btn100:EntidadVirtualAccidenteOrografico">
+    <edge id="eid_rdfs:subClassOf143" source="nid_btn100:ComarcaRegion" target="nid_btn100:EntidadVirtualAccidenteOrografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3047,7 +3438,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf127" source="nid_btn100:PatrimonioDeLaHumanidad" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf144" source="nid_btn100:PatrimonioDeLaHumanidad" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3070,7 +3461,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf128" source="nid_btn100:EstacionTelefonica" target="nid_btn100:EstacionDeTelecomunicaciones">
+    <edge id="eid_rdfs:subClassOf145" source="nid_btn100:EstacionTelefonica" target="nid_btn100:EstacionDeTelecomunicaciones">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3093,7 +3484,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf129" source="nid_btn100:IslaMaritima" target="nid_btn100:Isla">
+    <edge id="eid_rdfs:subClassOf146" source="nid_btn100:IslaMaritima" target="nid_btn100:Isla">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3104,7 +3495,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf130" source="nid_btn100:EntidadVirtualAccidenteMaritimo" target="nid_btn100:EntidadVirtual">
+    <edge id="eid_rdfs:subClassOf147" source="nid_btn100:EntidadVirtualAccidenteMaritimo" target="nid_btn100:EntidadVirtual">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3127,7 +3518,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf131" source="nid_btn100:Presa" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf148" source="nid_btn100:Presa" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3150,7 +3541,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf132" source="nid_btn100:Apartadero" target="nid_btn100:InstalacionFerroviaria">
+    <edge id="eid_rdfs:subClassOf149" source="nid_btn100:Apartadero" target="nid_btn100:InstalacionFerroviaria">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3173,7 +3564,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf133" source="nid_btn100:ZonaMonumental" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf150" source="nid_btn100:ZonaMonumental" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3196,7 +3587,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf134" source="nid_btn100:Universidad" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf151" source="nid_btn100:Universidad" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3219,7 +3610,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf135" source="nid_btn100:Ensenada" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
+    <edge id="eid_rdfs:subClassOf152" source="nid_btn100:Ensenada" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3242,7 +3633,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf136" source="nid_btn100:FerrocarrilAltaVelocidad" target="nid_btn100:Ferrocarril">
+    <edge id="eid_rdfs:subClassOf153" source="nid_btn100:FerrocarrilAltaVelocidad" target="nid_btn100:Ferrocarril">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3265,7 +3656,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf137" source="nid_btn100:Montana" target="nid_btn100:EntidadVirtualAccidenteOrografico">
+    <edge id="eid_rdfs:subClassOf154" source="nid_btn100:Montana" target="nid_btn100:EntidadVirtualAccidenteOrografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3288,7 +3679,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf138" source="nid_btn100:ZonaRecreativa" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf155" source="nid_btn100:ZonaRecreativa" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3311,7 +3702,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf139" source="nid_btn100:Castillo" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf156" source="nid_btn100:Castillo" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3334,7 +3725,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf140" source="nid_btn100:Delta" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
+    <edge id="eid_rdfs:subClassOf157" source="nid_btn100:Delta" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3357,7 +3748,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf141" source="nid_btn100:Aerodronomo" target="nid_btn100:InfraestructuraAeroportuaria">
+    <edge id="eid_rdfs:subClassOf158" source="nid_btn100:Aerodronomo" target="nid_btn100:InfraestructuraAeroportuaria">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3368,7 +3759,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf142" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf159" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error13">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error13</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf160" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado" target="nid_http://org.semanticweb.owlapi/error#Error13">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3391,7 +3805,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf143" source="nid_btn100:EstacionInvernal" target="nid_btn100:AlojamientoYOcio">
+    <edge id="eid_rdfs:subClassOf161" source="nid_btn100:EstacionInvernal" target="nid_btn100:AlojamientoYOcio">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3414,7 +3828,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf144" source="nid_btn100:VistaPanoramica" target="nid_btn100:LugarDeInteres">
+    <edge id="eid_rdfs:subClassOf162" source="nid_btn100:VistaPanoramica" target="nid_btn100:LugarDeInteres">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3425,7 +3839,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf145" source="nid_btn100:ExplotacionMinera" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf163" source="nid_btn100:ExplotacionMinera" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error21">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error21</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf164" source="nid_btn100:ExplotacionMinera" target="nid_http://org.semanticweb.owlapi/error#Error21">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3448,7 +3885,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf146" source="nid_btn100:Esclusa" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf165" source="nid_btn100:Esclusa" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3471,7 +3908,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf147" source="nid_btn100:ZonaAeroportuaria" target="nid_btn100:ZonaDeUsoCaracteristico">
+    <edge id="eid_rdfs:subClassOf166" source="nid_btn100:ZonaAeroportuaria" target="nid_btn100:ZonaDeUsoCaracteristico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3482,7 +3919,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf148" source="nid_btn100:Carretera" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf167" source="nid_btn100:Carretera" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error17">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error17</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf168" source="nid_btn100:Carretera" target="nid_http://org.semanticweb.owlapi/error#Error17">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3505,7 +3965,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf149" source="nid_btn100:Laguna" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf169" source="nid_btn100:Laguna" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error23">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error23</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf170" source="nid_btn100:Laguna" target="nid_http://org.semanticweb.owlapi/error#Error23">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3528,7 +4011,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf150" source="nid_btn100:Enlace" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf171" source="nid_btn100:Enlace" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error25">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error25</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf172" source="nid_btn100:Enlace" target="nid_http://org.semanticweb.owlapi/error#Error25">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3551,7 +4057,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf151" source="nid_btn100:Helipuerto" target="nid_btn100:InfraestructuraAeroportuaria">
+    <edge id="eid_rdfs:subClassOf173" source="nid_btn100:Helipuerto" target="nid_btn100:InfraestructuraAeroportuaria">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3574,7 +4080,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf152" source="nid_btn100:CurvaDeNivelBatimetrica" target="nid_btn100:CurvaDeNivel">
+    <edge id="eid_rdfs:subClassOf174" source="nid_btn100:CurvaDeNivelBatimetrica" target="nid_btn100:CurvaDeNivel">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3597,7 +4103,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf153" source="nid_btn100:NucleoPoblacionPuntual" target="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#NucleoPoblacion">
+    <edge id="eid_rdfs:subClassOf175" source="nid_btn100:NucleoPoblacionPuntual" target="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#NucleoPoblacion">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3620,7 +4126,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf154" source="nid_btn100:EstacionDeTelevision" target="nid_btn100:EstacionDeTelecomunicaciones">
+    <edge id="eid_rdfs:subClassOf176" source="nid_btn100:EstacionDeTelevision" target="nid_btn100:EstacionDeTelecomunicaciones">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3643,7 +4149,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf155" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#CiudadAutonoma" target="nid_btn100:UnidadAdministrativa">
+    <edge id="eid_rdfs:subClassOf177" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#CiudadAutonoma" target="nid_btn100:UnidadAdministrativa">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3666,7 +4172,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf156" source="nid_btn100:Salina" target="nid_btn100:Humedal">
+    <edge id="eid_rdfs:subClassOf178" source="nid_btn100:Salina" target="nid_btn100:Humedal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3689,7 +4195,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf157" source="nid_http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf179" source="nid_http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3712,7 +4218,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf158" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#ComunidadJurisdiccional" target="nid_btn100:UnidadAdministrativa">
+    <edge id="eid_rdfs:subClassOf180" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#ComunidadJurisdiccional" target="nid_btn100:UnidadAdministrativa">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3735,7 +4241,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf159" source="nid_btn100:LineaElectricaDeAltaTension" target="nid_btn100:LineaElectrica">
+    <edge id="eid_rdfs:subClassOf181" source="nid_btn100:LineaElectricaDeAltaTension" target="nid_btn100:LineaElectrica">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3758,7 +4264,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf160" source="nid_btn100:Puerto" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf182" source="nid_btn100:Puerto" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error6">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="420.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error6</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf183" source="nid_btn100:Puerto" target="nid_http://org.semanticweb.owlapi/error#Error6">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3781,7 +4310,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf161" source="nid_btn100:Bahia" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
+    <edge id="eid_rdfs:subClassOf184" source="nid_btn100:Bahia" target="nid_btn100:EntidadVirtualAccidenteMaritimo">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3792,7 +4321,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf162" source="nid_btn100:Itinerario" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf185" source="nid_btn100:Itinerario" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3803,7 +4332,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf163" source="nid_btn100:LineaElectrica" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+      <node id="nid_http://org.semanticweb.owlapi/error#Error14">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error14</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf186" source="nid_btn100:Itinerario" target="nid_http://org.semanticweb.owlapi/error#Error14">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf187" source="nid_btn100:LineaElectrica" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3826,7 +4378,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf164" source="nid_btn100:Pico" target="nid_btn100:PuntoAcotado">
+    <edge id="eid_rdfs:subClassOf188" source="nid_btn100:Pico" target="nid_btn100:PuntoAcotado">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3837,7 +4389,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf165" source="nid_btn100:AccidenteMaritimoPuntual" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf189" source="nid_btn100:AccidenteMaritimoPuntual" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error20">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error20</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf190" source="nid_btn100:AccidenteMaritimoPuntual" target="nid_http://org.semanticweb.owlapi/error#Error20">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3860,7 +4435,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf166" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio" target="nid_btn100:UnidadAdministrativa">
+    <edge id="eid_rdfs:subClassOf191" source="nid_http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio" target="nid_btn100:UnidadAdministrativa">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3883,7 +4458,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf167" source="nid_btn100:ParqueNacional" target="nid_btn100:ZonaProtegida">
+    <edge id="eid_rdfs:subClassOf192" source="nid_btn100:ParqueNacional" target="nid_btn100:ZonaProtegida">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3906,7 +4481,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf168" source="nid_btn100:EstacionDeFerrocarril" target="nid_btn100:InstalacionFerroviaria">
+    <edge id="eid_rdfs:subClassOf193" source="nid_btn100:EstacionDeFerrocarril" target="nid_btn100:InstalacionFerroviaria">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3929,7 +4504,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf169" source="nid_btn100:EstacionDepuradora" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf194" source="nid_btn100:EstacionDepuradora" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3940,7 +4515,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf170" source="nid_btn100:UnidadAdministrativa" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf195" source="nid_btn100:UnidadAdministrativa" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error4">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="420.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error4</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf196" source="nid_btn100:UnidadAdministrativa" target="nid_http://org.semanticweb.owlapi/error#Error4">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3963,7 +4561,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf171" source="nid_btn100:DepositoDeAgua" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf197" source="nid_btn100:DepositoDeAgua" target="nid_geo_core:ObjetoGeografico">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3974,7 +4572,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf172" source="nid_btn100:Humedal" target="nid_https://datos.ign.es/def/geo_core#ObjetoGeografico">
+    <edge id="eid_rdfs:subClassOf198" source="nid_btn100:Humedal" target="nid_geo_core:ObjetoGeografico">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://org.semanticweb.owlapi/error#Error12">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://org.semanticweb.owlapi/error#Error12</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf199" source="nid_btn100:Humedal" target="nid_http://org.semanticweb.owlapi/error#Error12">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
