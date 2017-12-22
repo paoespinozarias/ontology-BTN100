@@ -10,6 +10,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:geo_core="https://datos.ign.es/def/geo_core#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://datos.ign.es/def/btn100">
         <owl:versionIRI rdf:resource="https://datos.ign.es/def/btn100_v0.2"/>
@@ -61,6 +62,18 @@
     <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#maxQualifiedCardinality -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#maxQualifiedCardinality"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#qualifiedCardinality -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#qualifiedCardinality"/>
     
 
 
@@ -756,6 +769,168 @@ https://datos.ign.es/kos/transportes/tipo-tramo/no-interna</rdfs:comment>
     
 
 
+    <!-- http://org.semanticweb.owlapi/error#Error1 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error1"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error10 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error10"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error11 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error11"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error12 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error12"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error13 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error13"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error14 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error14"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error15 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error15"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error16 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error16"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error17 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error17"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error18 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error18"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error19 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error19"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error2 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error2"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error20 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error20"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error21 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error21"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error22 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error22"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error23 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error23"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error24 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error24"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error25 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error25"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error26 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error26"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error27 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error27"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error3 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error3"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error4 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error4"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error5 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error5"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error6 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error6"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error7 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error7"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error8 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error8"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error9 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error9"/>
+    
+
+
     <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#CiudadAutonoma -->
 
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#CiudadAutonoma">
@@ -789,6 +964,7 @@ https://datos.ign.es/kos/transportes/tipo-tramo/no-interna</rdfs:comment>
     <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado -->
 
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error13"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -800,13 +976,6 @@ https://datos.ign.es/kos/transportes/tipo-tramo/no-interna</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#codigoINE"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -836,6 +1005,7 @@ https://datos.ign.es/kos/transportes/tipo-tramo/no-interna</rdfs:comment>
     <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#NucleoPoblacion -->
 
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#NucleoPoblacion">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error10"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -853,13 +1023,6 @@ https://datos.ign.es/kos/transportes/tipo-tramo/no-interna</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.geonames.org/ontology#population"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -918,18 +1081,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#AccidenteMaritimoPuntual -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#AccidenteMaritimoPuntual">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error20"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -996,18 +1153,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#AlojamientoYOcio -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#AlojamientoYOcio">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error7"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -1209,18 +1360,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#Carretera -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#Carretera">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error17"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Camino público, ancho y espacioso, pavimentado y dispuesto para el tránsito de vehículos. (RAE)</rdfs:comment>
@@ -1265,18 +1410,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#CauceArtificial -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#CauceArtificial">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error3"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -1577,18 +1716,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#Embalse -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#Embalse">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error19"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -1601,18 +1734,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#Enlace -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#Enlace">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error25"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -1636,18 +1763,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#EntidadVirtual -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#EntidadVirtual">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error2"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100</dc:source>
@@ -1769,18 +1890,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#EstacionPermanenteGPS -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#EstacionPermanenteGPS">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error24"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -1825,18 +1940,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#ExplotacionMinera -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#ExplotacionMinera">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error21"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -1849,18 +1958,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#Faro -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#Faro">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error15"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -1873,6 +1976,7 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#Ferrocarril -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#Ferrocarril">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error5"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1884,13 +1988,6 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://datos.ign.es/def/btn100#codigoDeVia"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1987,18 +2084,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#Humedal -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#Humedal">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error12"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -2011,18 +2102,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#InfraestructuraAeroportuaria -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#InfraestructuraAeroportuaria">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error11"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -2046,6 +2131,7 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#InstalacionFerroviaria -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#InstalacionFerroviaria">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error9"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2057,13 +2143,6 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://datos.ign.es/def/btn100#codigoDeEstacion"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2128,18 +2207,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#Itinerario -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#Itinerario">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error14"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -2185,18 +2258,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#Laguna -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#Laguna">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error23"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -2240,6 +2307,7 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#LugarDeInteres -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#LugarDeInteres">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error22"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2251,13 +2319,6 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://datos.ign.es/def/btn100#codigoBIC"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2529,6 +2590,7 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#Puerto -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#Puerto">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error6"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2540,13 +2602,6 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://datos.ign.es/def/btn100#unloCode"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2588,18 +2643,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#PuntoAcotado -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#PuntoAcotado">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error1"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100</dc:source>
@@ -2633,18 +2682,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#Ria -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#Ria">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error26"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -2657,6 +2700,7 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#Rio -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#Rio">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error16"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2674,13 +2718,6 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://datos.ign.es/def/btn100#codigoDeRio"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2804,6 +2841,7 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#UnidadAdministrativa -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#UnidadAdministrativa">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error4"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2815,13 +2853,6 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#codigoINE"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -2845,18 +2876,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#VerticeGeodesico -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#VerticeGeodesico">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error27"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -2937,18 +2962,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#ZonaDeUsoCaracteristico -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#ZonaDeUsoCaracteristico">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error18"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
@@ -3038,18 +3057,12 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
     <!-- https://datos.ign.es/def/btn100#ZonaProtegida -->
 
     <owl:Class rdf:about="https://datos.ign.es/def/btn100#ZonaProtegida">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error8"/>
         <rdfs:subClassOf rdf:resource="https://datos.ign.es/def/geo_core#ObjetoGeografico"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100</dc:source>
@@ -3089,6 +3102,87 @@ Según INE: Se considera Núcleo de población a un conjunto de al menos diez ed
         <rdfs:comment xml:lang="es">Zona del terreno donde se cultivan especies vegetales, con posible añadidura de otros elementos como fuentes o esculturas.</rdfs:comment>
         <rdfs:label xml:lang="es">Zona Verde</rdfs:label>
     </owl:Class>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    </rdf:Description>
 </rdf:RDF>
 
 
