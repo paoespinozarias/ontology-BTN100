@@ -1,0 +1,81 @@
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2004/02/skos/core> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://purl.org/dc/terms/creator> "Paola Espinoza Arias (OEG - Universidad Polit\u00E9cnica de Madrid)"@es .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://purl.org/dc/terms/date> "2017-12-13"@es .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://purl.org/dc/terms/description> "Tipolog\u00EDa que especifica la administraci\u00F3n oficial de la que es capital seg\u00FAn el cat\u00E1logo de la BTN100"@es .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://purl.org/dc/terms/title> "Tipo de capital"@es .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://www.w3.org/2004/02/skos/core#definition> "Tipolog\u00EDa que especifica la administraci\u00F3n oficial de la que es capital."@es .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma-no-de-provincia> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/municipio> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/nacion> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/no-capital> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/provincia> .
+# 
+# https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma> <http://www.w3.org/2004/02/skos/core#definition> "Capital de una comunidad aut\u00F3noma"@es .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma> <http://www.w3.org/2004/02/skos/core#inScheme> <https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma> <http://www.w3.org/2004/02/skos/core#prefLabel> "comunidad aut\u00F3noma"@es .
+# 
+# https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma-no-de-provincia
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma-no-de-provincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma-no-de-provincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma-no-de-provincia> <http://www.w3.org/2004/02/skos/core#definition> "Capital de la comunidad aut\u00F3noma pero no de la provincia"@es .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma-no-de-provincia> <http://www.w3.org/2004/02/skos/core#inScheme> <https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/comunidad-autonoma-no-de-provincia> <http://www.w3.org/2004/02/skos/core#prefLabel> "comunidad aut\u00F3noma no capital de provincia"@es .
+# 
+# https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/municipio
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/municipio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/municipio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/municipio> <http://www.w3.org/2004/02/skos/core#definition> "Capital de un municipio"@es .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/municipio> <http://www.w3.org/2004/02/skos/core#inScheme> <https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/municipio> <http://www.w3.org/2004/02/skos/core#prefLabel> "municipio"@es .
+# 
+# https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/nacion
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/nacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/nacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/nacion> <http://www.w3.org/2004/02/skos/core#definition> "capital de una naci\u00F3n"@es .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/nacion> <http://www.w3.org/2004/02/skos/core#inScheme> <https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/nacion> <http://www.w3.org/2004/02/skos/core#prefLabel> "naci\u00F3n"@es .
+# 
+# https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/no-capital
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/no-capital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/no-capital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/no-capital> <http://www.w3.org/2004/02/skos/core#definition> "No es capital de un municipio"@es .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/no-capital> <http://www.w3.org/2004/02/skos/core#inScheme> <https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/no-capital> <http://www.w3.org/2004/02/skos/core#prefLabel> "no capital"@es .
+# 
+# https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/provincia
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/provincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/provincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/provincia> <http://www.w3.org/2004/02/skos/core#definition> "Capital de una provincia"@es .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/provincia> <http://www.w3.org/2004/02/skos/core#inScheme> <https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital> .
+<https://datos.ign.es/kos/poblaciones-construcciones/tipo-capital/provincia> <http://www.w3.org/2004/02/skos/core#prefLabel> "provincia"@es .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
